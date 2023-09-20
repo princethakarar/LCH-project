@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="login.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="login.css">
     <title>Login&Register</title>
 </head>
 <body>
-        <div class="container" style="background-image: linear-gradient(rgba(0,0,30,0.4),rgba(0,0,30,0.4)),url(images/login_background.jpg);">
+        <div class="container">
             <div class="form-box">
-                <form method="post" action="index.html">
+                <form action="index.html" method="post">
                     <div class="input-group">
                         <div class="input-field" id="nameField">
                             <i class="fa-solid fa-user"></i>
@@ -33,24 +33,24 @@
                 </form>
             </div>
         </div>
+        <script>
+            let signup = document.getElementById("signup");
+            let signin = document.getElementById("signin");
+            let nameField = document.getElementById("nameField");
+        
+            signin.onclick = function(){
+                nameField.style.maxHeight = "0";
+                signup.classList.add("disable");
+                signin.classList.remove("disable");
+            }
+        
+            signup.onclick = function(){
+                nameField.style.maxHeight = "60px";
+                signup.classList.remove("disable");
+                signin.classList.add("disable");
+            }
+        </script>
 
-<script>
-    let signup = document.getElementById("signup");
-    let signin = document.getElementById("signin");
-    let nameField = document.getElementById("nameField");
-
-    signin.onclick = function(){
-        nameField.style.maxHeight = "0";
-        signup.classList.add("disable");
-        signin.classList.remove("disable");
-    }
-
-    signup.onclick = function(){
-        nameField.style.maxHeight = "60px";
-        signup.classList.remove("disable");
-        signin.classList.add("disable");
-    }
-</script>
 <?php
     if(isset($_POST["in"]))
     {

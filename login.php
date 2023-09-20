@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="login.css              ">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>Login&Register</title>
 </head>
 <body>
-        <div class="container" style="background-image: linear-gradient(rgba(0,0,30,0.4),rgba(0,0,30,0.4)),url(images/login_background.jpg);">
+        <div class="container">
             <div class="form-box">
                 <form method="post" action="index.html">
+                    <img src="images/logo_png.png" alt="logo" class="logo">
                     <div class="input-group">
                         <div class="input-field" id="nameField">
                             <i class="fa-solid fa-user"></i>
@@ -33,7 +34,6 @@
                 </form>
             </div>
         </div>
-
 <script>
     let signup = document.getElementById("signup");
     let signin = document.getElementById("signin");
@@ -52,16 +52,25 @@
     }
 </script>
 <?php
+    session_start();
     if(isset($_POST["in"]))
     {
         $mail = $_POST["em"];
         $pass = $_POST["pass"];
 
-        if($mail == "prince.thakarar40@gmail.com" && $pass == "123")
-        {
-            header("Location: index.html");
-            exit();
+        // if($mail == "prince.thakarar40@gmail.com" && $pass == "123")
+        // {
+            // if($_SESSION['mail'] == "prince.thakarar40@gmail.com")
+            // {
+            //     header('location: index.html');
+            // }	session_start();
+        if(!ISSET($_SESSION['mail'])){
+            header('location:index.html');
         }
+
+            // $_SESSION["$mail"] = "prince.thakarar40@gmail.com"
+            // $_SESSION["$pass"] = 123;
+        // }
     }   
 ?>
 </body>

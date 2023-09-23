@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Library Community Hangout</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="event.css">
+    <title>event</title>
 </head>
 <body>
     <header>
@@ -23,7 +25,5 @@
             </div>
         </nav>
     </header>
-    <main></main>
-    <footer></footer>
 </body>
 </html>

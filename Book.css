@@ -1,4 +1,4 @@
-.*{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -16,12 +16,21 @@ body{
 .row .box{
     /* border: 1px solid black; */
     width: 31%;
-    height: 70vh;
+    height: 420px;
     margin: 20px 7px;
     align-items: center;
     background-color: rgba(222, 220, 220, 0.628);
     border-radius: 7px;
+    transition: linear 0.5s;
 } 
+
+.row .box:hover{
+    scale: 1.04;
+}
+
+.row .box:hover img{
+    scale: 1.01;
+}
 
 .row .box a{
     text-decoration: none;
@@ -49,4 +58,5 @@ body{
     position: relative;
     left: 8%;
     top: 15px;
+    transition: 0.5s;
 }

@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: fixed;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #27496D;
+    padding-right: 30px;
+}
+
+header .left{
+    display: inline-block;
+}
+
+header .left .logo{
+    height: 90px;
+    width: 90px;
+    margin: 10px 0px 0px 30px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+header .right{
+    margin-left: 500px;
+    margin-top: 18px;
+    text-transform: uppercase;
+}
+
+header .right ul{
+    list-style: none;
+    display: flex;
+}
+
+header .right ul li a{
+    display: block;
+    padding: 25px;
+    text-decoration: none;
+    color: white;
+}

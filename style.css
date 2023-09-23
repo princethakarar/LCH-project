@@ -4,15 +4,12 @@
     box-sizing: border-box;
 }
 
-header{
-    position: fixed;
-}
-
 header nav{
     display: flex;
     justify-content: space-between;
     background-color: #27496D;
-    padding-right: 30px;
+    width: 100%;
+    padding-bottom: 10px;
 }
 
 header .left{

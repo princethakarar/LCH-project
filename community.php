@@ -25,7 +25,9 @@
             </div>
         </nav>
     </header>
-    <main></main>
+    <main>
+        
+    </main>
     <footer></footer>
 </body>
 </html>

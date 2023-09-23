@@ -16,12 +16,13 @@ body{
 .row .box{
     /* border: 1px solid black; */
     width: 31%;
-    height: 420px;
+    height: 410px;
     margin: 20px 7px;
     align-items: center;
     background-color: rgba(222, 220, 220, 0.628);
     border-radius: 7px;
-    transition: linear 0.5s;
+    transition: linear 0.25s;
+    margin-top: 50px;
 } 
 
 .row .box:hover{

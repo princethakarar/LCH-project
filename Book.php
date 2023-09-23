@@ -25,6 +25,7 @@
             </div>
         </nav>
     </header>
+
     <main>
         <div class="row">
             <div class="box">
@@ -56,7 +57,7 @@
                 </a>
             </div>
         </div>  
-        <div class="row">
+        <div class="row" style="">
             <div class="box">
                 <a href="#">
                     <img src="images/psychology of money.jpg" alt="psychology of money">

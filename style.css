@@ -26,7 +26,7 @@ header .left .logo{
 
 header .right{
     margin-left: 500px;
-    margin-top: 18px;
+    margin-top: 20px;
     text-transform: uppercase;
 }
 
@@ -35,9 +35,30 @@ header .right ul{
     display: flex;
 }
 
+header .right ul li{
+    display: inline-block;
+    position: relative;
+}
+
 header .right ul li a{
     display: block;
     padding: 25px;
     text-decoration: none;
     color: white;
+}
+
+header .right ul li::after{
+    content: '';
+    height: 2px;
+    width: 0;
+    background: #9a8f18;
+    position: absolute;
+    left: 20%;
+    bottom: 17px;
+    transition: 0.5s; 
+}
+
+header .right ul li:hover::after{
+    width: 60%;
+    cursor: pointer;
 }

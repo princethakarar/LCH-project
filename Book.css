@@ -8,14 +8,28 @@ body{
     background-image: linear-gradient(rgba(0,0,30,0.4),rgba(0,0,30,0.4)),url(images/login_background.jpg);
 }
 
-.row{
-    display: flex;
-    justify-content: space-around;
+.hor_scroll{
+    border: 2px solid black;
 }
 
-.row .box{
+.hor_scroll .row{
+    width: 95%;
+    margin: auto;
+    border: 2px solid white;
+    display: flex;
+    justify-content: space-around;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.hor_scroll .row::-webkit-scrollbar{
+    display: none;
+}
+
+.hor_scroll .row .box{
     /* border: 1px solid black; */
-    width: 31%;
+    min-width: 300px;
+    max-width: 300px;
     height: 410px;
     margin: 20px 7px;
     align-items: center;
@@ -25,11 +39,56 @@ body{
     margin-top: 50px;
 } 
 
-.row .box:hover{
+.hor_scroll .fa-chevron-left{
+    position: absolute;
+    top: 55%; 
+    left: 0.5%;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(222, 220, 220, 0.628);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 9999;
+    transition: 0s;
+}
+
+.hor_scroll .fa-chevron-right{
+    position: absolute;
+    top: 55%; 
+    vertical-align: middle;
+    right: 0.5%;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(222, 220, 220, 0.628);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 9999;
+    transition: 0s;
+}
+
+.hor_scroll .row:hover .hor_scroll .fa-chevron-right{
+    opacity: 1;
+}
+
+.fa-chevron-left:active , .fa-chevron-right:active{
+    font-size: 25px;
+}
+
+.hor_scroll .row .box:hover{
     scale: 1.04;
 }
 
-.row .box:hover img{
+.hor_scroll .row .box:hover img{
     scale: 1.01;
 }
 

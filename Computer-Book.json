@@ -1,0 +1,33 @@
+[
+    {
+        "url": "",
+        "title": "Artificial Intelligence",
+        "image_src": "images/ai.jpg",
+        "description": "\"Artificial Intelligence\" techniques used to create intelligent systems and applications."
+    },
+    {
+        "url": "",
+        "title": "Effective Java",
+        "image_src": "images/java.jpg",
+        "description": "\"Effective Java\"by Joshua Bloch is a programming guide that offers best practices and design principles."
+    },
+    {
+        "url": "",
+        "title": "Python for Data Analysis",
+        "image_src": "images/python.jpg",
+        "description": "\"Python for Data Analysis\" by Wes McKinney is a comprehensive guide that teaches data analysis using Python."
+    },
+    {
+       "url": "",
+       "title": "Introduction To Algorithms",
+       "image_src": "images/alogorithm.jpg",
+       "description": "\"Introduction to Algorithms\" is a comprehensive textbook covering a wide range of fundamental algorithms and data structures used in computer science."
+
+    },
+    {
+          "url": "",
+       "title": "Computer Organization and Design",
+       "image_src": "images/computer.jpg",
+       "description": "\"Computer Organization and Design\", Fifth Edition, is the latest update to the classic introduction to computer organization. ."
+    }
+]

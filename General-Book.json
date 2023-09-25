@@ -1,0 +1,32 @@
+[
+    {
+        "url": "",
+        "title": "Rich Dad Poor Dad (HINDI)",
+        "image_src": "images/rich dad poor dad.jpg",
+        "description": "\"Rich Dad Poor Dad\" by Robert Kiyosaki contrasts the financial philosophies of his \"rich dad\" and \"poor dad\"."
+    },
+    {
+        "url": "",
+        "title": "7 Money Rules for Life (R) - How to Take Control of Your Financial Future",
+        "image_src": "images/7 money rules.jpg",
+        "description": "\"7 Money Rules for Life\" by Mary Hunt offers practical financial advice."
+    },
+    {
+        "url": "",
+        "title": "The Psychology Of Money",
+        "image_src": "images/psychology of money.jpg",
+        "description": "\"The Psychology of Money\" by Morgan Housel explores the complex relationship between human behavior and money."
+    },
+    {
+       "url": "",
+       "title": "Atmoic Habits",
+       "image_src": "images/atomic habits.jpg",
+       "description": "\"Atomic Habits\" by James Clear explores the science of habit formation"   
+    },
+    {
+        "url": "",
+        "title": "The Startup's Guide to LinkedIn Lead Generation Mastery",
+        "image_src": "images/keval book.jpg",
+        "description": "This comprehensive eBook is tailored to startup's aiming to excel in B2B lead generation using LinkedIn."   
+    }
+]

@@ -4,20 +4,22 @@
     box-sizing: border-box;
 }
 
-body{
-    background-image: linear-gradient(rgba(0,0,30,0.4),rgba(0,0,30,0.4)),url(images/login_background.jpg);
+.hor_scroll{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.hor_scroll{
-    border: 2px solid black;
+body{
+    background-image: linear-gradient(rgba(0,0,30,0.4),rgba(0,0,30,0.4)),url(images/login_background.jpg);
 }
 
 .hor_scroll .row{
     width: 95%;
     margin: auto;
-    border: 2px solid white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     overflow-x: auto;
     scroll-behavior: smooth;
 }
@@ -28,20 +30,28 @@ body{
 
 .hor_scroll .row .box{
     /* border: 1px solid black; */
-    min-width: 300px;
-    max-width: 300px;
+    min-width: 270px;
+    max-width: 270px;
+    padding: 10px;
     height: 410px;
-    margin: 20px 7px;
+    margin-bottom: 20px;
+    margin-left: 20px;
     align-items: center;
     background-color: rgba(222, 220, 220, 0.628);
     border-radius: 7px;
     transition: linear 0.25s;
-    margin-top: 50px;
+    margin-top: 30px;
 } 
 
+.outer .type{
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 40px;
+}
+
 .hor_scroll .fa-chevron-left{
-    position: absolute;
-    top: 55%; 
+    position: relative;
     left: 0.5%;
     width: 30px;
     height: 30px;
@@ -58,8 +68,7 @@ body{
 }
 
 .hor_scroll .fa-chevron-right{
-    position: absolute;
-    top: 55%; 
+    position: relative;
     vertical-align: middle;
     right: 0.5%;
     width: 30px;
@@ -74,10 +83,6 @@ body{
     cursor: pointer;
     z-index: 9999;
     transition: 0s;
-}
-
-.hor_scroll .row:hover .hor_scroll .fa-chevron-right{
-    opacity: 1;
 }
 
 .fa-chevron-left:active , .fa-chevron-right:active{
@@ -99,15 +104,15 @@ body{
 .row .box .heading{
     color: rgb(53, 53, 53);
     position: relative;
-    left: 8%;
+    left: 0;
     font-weight: 600;
-    margin-top: 17px;
+    margin-top: 0;
 }
 
 .row .box .content{
     color: rgb(53, 53, 53);
     position: relative;
-    left: 8%;
+    left: 0;
     margin-top: 0;
     font-size: 15px;
 }
@@ -116,7 +121,7 @@ body{
     height: 300px;
     width: 250px;
     position: relative;
-    left: 8%;
-    top: 15px;
+    left: 0;
+    top: 0;
     transition: 0.5s;
 }

@@ -1,0 +1,32 @@
+[
+    {
+        "url": "",
+        "title": "Srimad Bhagavad Gita(HINDI)",
+        "image_src": "images/bhagvat geeta.jpg",
+        "description": "An episode recorded in the Mahabharata, a Sanskrit epic poem of ancient India."   
+    },
+    {
+        "url": "",
+        "title": "Ramayan(HINDI)",
+        "image_src": "images/ramayan.jpg",
+        "description": "The Ramayana is an ancient Indian epic that narrates the life and adventures of Lord Rama."  
+    },
+    {
+        "url": "",
+        "title": " Upanishads(HINDI)",
+        "image_src": "images/upanishads.jpg",
+        "description": "The Upanishads are a collection of ancient Hindu texts that explore profound spiritual and philosophical concepts." 
+    },
+    {
+        "url": "",
+        "title": "Charaka Samhita(HINDI)",
+        "image_src": "images/charaka samhita.jpg",
+        "description": "covers the field of Ayurveda, including principles of medicine, disease diagnosis, and treatments."  
+    },
+    {
+        "url": "",
+        "title": "Holy Vedas(HINDI)",
+        "image_src": "images/holy vedas.jpg",
+        "description": "This book covers all four, RIG VEDA, ATHARVA VEDA, YAJUR VEDA, SAM VEDA."
+    }
+]

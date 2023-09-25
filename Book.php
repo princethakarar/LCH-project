@@ -26,34 +26,54 @@
     </header>
 
     <main>
-        <div class="hor_scroll">
-            <i class="fa-solid fa-chevron-left"></i>
-            <div class="row">
-                <!-- <div class="box">
-                    <a href="#">
-                        <img src="images/bhagvat geeta.jpg" alt="bhagvat geeta">
-                        <p class="heading">Srimad Bhagavad Gita<br>(HINDI)</p>
-                        <p class="content">An episode recorded in the Mahabharata,<br> a Sanskrit epic poem of ancient India.</p>
-                    </a>
-                </div> --> 
+        <div class="outer">
+            <h2 class="type">Personal Growth Books</h2>
+            <div class="hor_scroll">
+                <i class="fa-solid fa-chevron-left fa-chevron-left1"></i>
+                <div class="row row1" class="general">
+                    <!-- <div class="box">
+                        <a href="#">
+                            <img src="images/bhagvat geeta.jpg" alt="bhagvat geeta">
+                            <p class="heading">Srimad Bhagavad Gita<br>(HINDI)</p>
+                            <p class="content">An episode recorded in the Mahabharata,<br> a Sanskrit epic poem of ancient India.</p>
+                        </a>
+                    </div> --> 
+                </div>
+                <i class="fa-solid fa-chevron-right fa-chevron-right1"></i>
             </div>
-                <i class="fa-solid fa-chevron-right"></i>
-        </div>  
-        <div class="row">
-            <div class="box">
-                <a href="#">
-                    <img src="images/psychology of money.jpg" alt="psychology of money">
-                    <p class="heading">The Psychology Of Money</p>
-                    <p class="content">"The Psychology of Money" by Morgan<br> Housel explores the complex relationship between human behavior and money.</p>
-                </a>
+        </div>
+        <div class="outer">
+            <h2 class="type">Spiritual Books</h2>
+            <div class="hor_scroll">
+                <i class="fa-solid fa-chevron-left fa-chevron-left2"></i>
+                <div class="row row2" class="spiritual">
+                    <!-- <div class="box">
+                        <a href="#">
+                            <img src="images/bhagvat geeta.jpg" alt="bhagvat geeta">
+                            <p class="heading">Srimad Bhagavad Gita<br>(HINDI)</p>
+                            <p class="content">An episode recorded in the Mahabharata,<br> a Sanskrit epic poem of ancient India.</p>
+                        </a>
+                    </div> --> 
+                </div>
+                <i class="fa-solid fa-chevron-right fa-chevron-right2"></i>
             </div>
-            <div class="box">
-                <a href="#">
-                    <img src="images/psychology of money.jpg" alt="psychology of money">
-                    <p class="heading">The Psychology Of Money</p>
-                </a>
-            </div>
-        </div>  
+        </div>
+        <div class="outer">
+            <h2 class="type">Computer Books</h2>
+            <div class="hor_scroll">
+                <i class="fa-solid fa-chevron-left fa-chevron-left3"></i>
+                <div class="row row3">
+                    <!-- <div class="box">
+                        <a href="#">
+                            <img src="images/bhagvat geeta.jpg" alt="bhagvat geeta">
+                            <p class="heading">Srimad Bhagavad Gita<br>(HINDI)</p>
+                            <p class="content">An episode recorded in the Mahabharata,<br> a Sanskrit epic poem of ancient India.</p>
+                        </a>
+                    </div> --> 
+                </div>
+                <i class="fa-solid fa-chevron-right fa-chevron-right3"></i>
+            </div>   
+        </div>
     </main>
     <footer></footer>
     <script src="Book.js"></script>

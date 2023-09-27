@@ -74,7 +74,6 @@
             </div>   
         </div>
     </main>
-    <footer></footer>
     <script src="Book.js"></script>
 </body>
 </html>

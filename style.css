@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* header */
+
 header nav{
     display: flex;
     justify-content: space-between;
@@ -61,4 +63,11 @@ header .right ul li::after{
 header .right ul li:hover::after{
     width: 60%;
     cursor: pointer;
+}
+
+/* footer */
+
+footer{
+    background-color: #27496D;
+    margin-top: 20px;
 }

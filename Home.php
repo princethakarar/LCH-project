@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>Home</title>
 </head>
 <body>
@@ -14,11 +15,11 @@
                 <img src="images/logo_png.png" alt="logo" class="logo">
             </div>
             <div class="right">
-                    <ul>
-                        <li><a href="Home.php">Home</a></li>
-                        <li><a href="Book.php">Books</a></li>
-                        <li><a href="login.php">Login</a></li>
-                    </ul>
+                <ul>
+                    <li><a href="Home.php">Home</a></li>
+                    <li><a href="Book.php">Books</a></li>
+                    <li><a href="login.php">Login</a></li>
+                </ul>
             </div>
         </nav>
     </header>
@@ -40,46 +41,93 @@
                     ?>
                 </ul>
             </div>
-        </main>
-
         <!-- <div class="controls">
             <button id="prev">Previous</button>
             <button id="next">Next</button>
         </div> -->
-    </div>
-    <div class="updates&events">
-        <div class="updates">
-            <h2 class="head">New Books</h2>
-            <div class="update">
-                <img src="images/endgame.jpg" alt="endgame">
-                <div class="data">
-                    <p class="heading">The Endgame</p>
-                    <br>
-                    <p class="content">A gripping thriller of<br> secrets, survival, and high-stakes<br> intrigue unfolds..</p>
+        </div>
+        <div class="updates&events">
+            <div class="updates">
+                <h2 class="head">New Books</h2>
+                <div class="update">
+                    <img src="images/endgame.jpg" alt="endgame">
+                    <div class="data">
+                        <p class="heading">The Endgame</p>
+                        <br>
+                        <p class="content">A gripping thriller of<br> secrets, survival, and high-stakes<br> intrigue unfolds.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="update">
-                <img src="images/miracle at happy bazar.jpg" alt="miracle at happy bazar">
-                <div class="data">
-                    <p class="heading">MIRACLE AT HAPPY BAZAAR</p>
-                    <br>
-                    <p class="content">Miracle at Happy Bazaar is<br> the best book of children’s<br> tales by Ruskin
-Bond.</p>
-                </div>
+                <div class="update">
+                    <img src="images/miracle at happy bazar.jpg" alt="miracle at happy bazar">
+                    <div class="data">
+                        <p class="heading">MIRACLE AT HAPPY BAZAAR</p>
+                        <br>
+                        <p class="content">Miracle at Happy Bazaar is<br> the best book of children’s<br> tales by Ruskin
+    Bond.</p>
+                    </div>
 
+                </div>
+                <div class="update">
+                    <img src="images/suheldev.jpg" alt="suheldev">
+                    <div class="data">
+                        <p class="heading">Legend of Suheldev: The King<br> Who Saved India</p>
+                        <br>
+                        <p class="content">Repeated attacks by Mahmud<br> of Ghazni and his barbaric<br> Turkic hordes have weakened<br> India’s northern regions.</p>
+                    </div>
+                </div>
             </div>
-            <div class="update">
-                <img src="images/suheldev.jpg" alt="suheldev">
-                <div class="data">
-                    <p class="heading">Legend of Suheldev: The King<br> Who Saved India</p>
-                    <br>
-                    <p class="content">Repeated attacks by Mahmud<br> of Ghazni and his barbaric<br> Turkic hordes have weakened<br> India’s northern regions.</p>
+            <div class="separator"></div>
+            <div class="events">
+                <h2 class="head">Upcoming Events</h2>
+                <div class="event">
+                <i class="fa-solid fa-calendar-days"></i>
+                    <div class="data">
+                        <p class="heading">Book Fair</p>
+                        <br>
+                        <p class="content">Date : 10 Oct</p>
+                    </div>
+                </div>
+                <div class="event">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <div class="data">
+                        <p class="heading">Author Visit(Jay Vasavada)</p>
+                        <br>
+                        <p class="content">Date : 12 Oct</p>
+                    </div>
+
+                </div>
+                <div class="event">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <div class="data">
+                        <p class="heading">Creative Writing</p>
+                        <br>
+                        <p class="content">Date : 25 Oct</p>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="separator"></div>
-        <div class="events"></div>
-    </div>
+    </main>
+    <footer>
+        <form action="submit_feedback.php" method="POST">      
+            <table>
+                <tr>
+                    <td><label for="name">Name:</label></td>
+                    <td><input type="text" id="name" name="name" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="feedback">Feedback:</label></td>
+                    <td><textarea id="feedback" name="feedback" rows="4" required></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><center><button type="submit">Submit</button></center></td>
+                </tr>
+            </table>
+        </form>
+    </footer>
 
     <script>
         const slider = document.getElementById('slider');

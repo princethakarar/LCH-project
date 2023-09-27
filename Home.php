@@ -15,8 +15,7 @@
             </div>
             <div class="right">
                     <ul>
-                        <li><a href="index.php">Home</a></li>
-                        <li><a href="events.html">Events</a></li>
+                        <li><a href="Home.php">Home</a></li>
                         <li><a href="Book.php">Books</a></li>
                         <li><a href="login.php">Login</a></li>
                     </ul>
@@ -50,6 +49,7 @@
     </div>
     <div class="updates&events">
         <div class="updates">
+            <h2 class="head">New Books</h2>
             <div class="update">
                 <img src="images/endgame.jpg" alt="endgame">
                 <div class="data">
@@ -77,6 +77,7 @@ Bond.</p>
                 </div>
             </div>
         </div>
+        <div class="separator"></div>
         <div class="events"></div>
     </div>
 

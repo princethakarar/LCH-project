@@ -12,7 +12,7 @@
 }
 
 body{
-    background-image: linear-gradient(rgba(0,0,30,0.4),rgba(0,0,30,0.4)),url(images/login_background.jpg);
+    background-image: linear-gradient(rgba(0,0,30,0.4),rgba(0,0,30,0.4)),url(images/background2.jpg);
 }
 
 .hor_scroll .row{

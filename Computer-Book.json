@@ -18,7 +18,7 @@
         "description": "\"Python for Data Analysis\" by Wes McKinney is a comprehensive guide that teaches data analysis using Python."
     },
     {
-       "url": "",
+       "url": "book_detail1.php",
        "title": "Introduction To Algorithms",
        "image_src": "images/alogorithm.jpg",
        "description": "\"Introduction to Algorithms\" is a comprehensive textbook covering a wide range of fundamental algorithms and data structures used in computer science."

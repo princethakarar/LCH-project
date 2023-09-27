@@ -16,7 +16,7 @@
             </div>
             <div class="right">
                     <ul>
-                        <li><a href="index.php">Home</a></li>
+                        <li><a href="home.php">Home</a></li>
                         <li><a href="events.html">Events</a></li>
                         <li><a href="books.php">Books</a></li>
                         <li><a href="login.php">Login</a></li>

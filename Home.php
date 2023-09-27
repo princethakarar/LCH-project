@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Home.css">
     <title>Home</title>
 </head>
 <body>
@@ -16,54 +17,94 @@
                     <ul>
                         <li><a href="index.php">Home</a></li>
                         <li><a href="events.html">Events</a></li>
-                        <li><a href="books.php">Books</a></li>
+                        <li><a href="Book.php">Books</a></li>
                         <li><a href="login.php">Login</a></li>
                     </ul>
             </div>
         </nav>
     </header>
     <main>
-        <!-- Automatic Slider -->
-        <div class="slider">
-            <div class="slides">
-                <input type="radio" name="radio-btn" id="radio1">
-                <input type="radio" name="radio-btn" id="radio1">
-                <input type="radio" name="radio-btn" id="radio1">
-                <input type="radio" name="radio-btn" id="radio1">
-            <!-- slide images -->
-            <div class="slide first">
-                <img src="images/library1.jpg" alt="image 1">
+        <div class="image-slider">
+                <ul id="slider">
+                    <?php
+                    $imageLinks = [
+                        'images/library1.jpg',
+                        'images/library2.jpg',
+                        'images/library3.jpg',
+                        'images/library4.jpg'
+                        // Add more image links as needed
+                    ];
+
+                    foreach ($imageLinks as $imageLink) {
+                        echo '<li><img src="' . $imageLink . '" alt="Library Image"></li>';
+                    }
+                    ?>
+                </ul>
             </div>
-            <div class="slide second">
-                <img src="images/library2.jpg" alt="image 2">
+        </main>
+
+        <!-- <div class="controls">
+            <button id="prev">Previous</button>
+            <button id="next">Next</button>
+        </div> -->
+    </div>
+    <div class="updates&events">
+        <div class="updates">
+            <div class="update">
+                <img src="images/endgame.jpg" alt="endgame">
+                <div class="data">
+                    <p class="heading">The Endgame</p>
+                    <br>
+                    <p class="content">A gripping thriller of<br> secrets, survival, and high-stakes<br> intrigue unfolds..</p>
+                </div>
             </div>
-            <div class="slide first">
-                <img src="images/library3.jpg" alt="image 3">
+            <div class="update">
+                <img src="images/miracle at happy bazar.jpg" alt="miracle at happy bazar">
+                <div class="data">
+                    <p class="heading">MIRACLE AT HAPPY BAZAAR</p>
+                    <br>
+                    <p class="content">Miracle at Happy Bazaar is<br> the best book of children’s<br> tales by Ruskin
+Bond.</p>
+                </div>
+
             </div>
-            <div class="slide first">
-                <img src="images/library4.jpeg" alt="image 4">
-            </div>
-            <div class="slide first">
-                <img src="images/library5.jpeg" alt="image 5">
-            </div>
-            <!-- automatic navigation -->
-            <div class="navigation-auto">
-                <div class="auto-btn1"></div>
-                <div class="auto-btn2"></div>
-                <div class="auto-btn3"></div>
-                <div class="auto-btn4"></div>
-            </div>
-            </div>
-            <!-- manual navigation -->
-            <div class="navigation-manual">
-                <label for="radio1" class="manual-btn"></label>
-                <label for="radio2" class="manual-btn"></label>
-                <label for="radio3" class="manual-btn"></label>
-                <label for="radio4" class="manual-btn"></label>
+            <div class="update">
+                <img src="images/suheldev.jpg" alt="suheldev">
+                <div class="data">
+                    <p class="heading">Legend of Suheldev: The King<br> Who Saved India</p>
+                    <br>
+                    <p class="content">Repeated attacks by Mahmud<br> of Ghazni and his barbaric<br> Turkic hordes have weakened<br> India’s northern regions.</p>
+                </div>
             </div>
         </div>
+        <div class="events"></div>
+    </div>
 
-    </main>
-    <footer></footer>
+    <script>
+        const slider = document.getElementById('slider');
+        // const prevButton = document.getElementById('prev');
+        // const nextButton = document.getElementById('next');
+        let currentIndex = 0;
+
+        function showSlide(index) {
+            slider.style.transform = `translateX(-${index * 100}%)`;
+        }
+
+        function nextSlide() {
+            currentIndex = (currentIndex + 1) % <?php echo count($imageLinks); ?>;
+            showSlide(currentIndex);
+        }
+
+        function prevSlide() {
+            currentIndex = (currentIndex - 1 + <?php echo count($imageLinks); ?>) % <?php echo count($imageLinks); ?>;
+            showSlide(currentIndex);
+        }
+
+        // nextButton.addEventListener('click', nextSlide);
+        // prevButton.addEventListener('click', prevSlide);
+
+        // Automatically advance the slider every 5 seconds (5000 milliseconds)
+        setInterval(nextSlide, 3000);
+    </script>
 </body>
 </html>

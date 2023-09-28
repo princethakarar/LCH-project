@@ -36,7 +36,7 @@
                 <br>
                
                 <h2>Effective Java"by Joshua Bloch is a programming guide that offers best practices and design principles</h2>
-               <a href="Home.php"><input type="button" class="button" name="btn" value="  Community " style="margin-left: 20px;  font-size: 25px;" ></a>
+                <input type="submit" class="button" name="btn" value="Community" style="margin-left: 20px;  font-size: 25px;" >
             </div>
            
             
@@ -52,7 +52,7 @@
 
         if(!isset($_SESSION["email"]))
         {
-            echo "<script> alert('You are not Loged...')</script>";
+            echo "<script> alert('You are not Logged...')</script>";
             header("location: login_book_community.php");
         }
         else

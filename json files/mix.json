@@ -1,32 +1,32 @@
 [
     {
         "url": "",
-        "title": "Srimad Bhagavad Gita<br>(HINDI)",
+        "title": "Srimad Bhagavad Gita(HINDI)",
         "image_src": "images/bhagvat geeta.jpg",
         "description": "An episode recorded in the Mahabharata, a Sanskrit epic poem of ancient India."   
     },
     {
         "url": "",
-        "title": "Ramayan<br>(HINDI)",
+        "title": "Ramayan(HINDI)",
         "image_src": "images/ramayan.jpg",
         "description": "The Ramayana is an ancient Indian epic that narrates the life and adventures of Lord Rama."  
     },
     {
         "url": "",
-        "title": "Charaka Samhita<br>(HINDI)",
+        "title": "Charaka Samhita(HINDI)",
         "image_src": "images/charaka samhita.jpg",
         "description": "covers the field of Ayurveda, including principles of medicine, disease diagnosis, and treatments."  
     },
     {
         "url": "",
-        "title": " Upanishads<br>(HINDI)",
+        "title": " Upanishads(HINDI)",
         "image_src": "images/upanishads.jpg",
         "description": "The Upanishads are a collection of ancient Hindu texts that explore profound spiritual and philosophical concepts." 
     },
     {
         "url": "",
-        "title": " Holy Vedas<br>(HINDI)",
-        "image_src": "images/holy vedaas.jpg",
+        "title": " Holy Vedas(HINDI)",
+        "image_src": "images/holy vedas.jpg",
         "description": "Holy Vedas are the oldest and most revered scriptures of Hinduism. This book covers all four, RIG VEDA, ATHARVA VEDA, YAJUR VEDA, SAM VEDA. The origin of the Vedas can be traced back as far as 1500 BCE."
     },
 
@@ -104,13 +104,13 @@
     {
         "url": "",
         "title": "AUTOMOTIVE TECHNOLOGY",
-        "image_src": "images/automative.jpg",
+        "image_src": "images/automotive.jpg",
         "description": "A SYSTEMS APPROACH, 5th Edition remains the leading authority on automotive theory, service and repair procedures.."
     },
     {
         "url": "",
-        "title": "Automative Software Architecutres",
-        "image_src": "images/softarct.jpg",
+        "title": "Automotive Software Architecutres",
+        "image_src": "images/software.jpg",
         "description": " introduces the concept of software architecture as one of the cornerstones of software in modern cars. ."
     },
     {
@@ -154,7 +154,7 @@
     {
             "url": "",
             "title": "HandBook On Civil Engineering ",
-            "image_src": "images/handbook",
+            "image_src": "images/handbook.jpg",
             "description": "Provides well illustrated formulae and key theory concepts which are used for cracking exams with questions and its solutions."
     },
 
@@ -167,7 +167,7 @@
    {
        "url": "",
        "title": "Mechanical Engineering For Markes",
-       "image_src": "images/markes.jpg",
+       "image_src": "images/makers.jpg",
        "description": "This practical, user-friendly reference book of common mechanical engineering concepts."
    },
    {
@@ -185,7 +185,7 @@
    {
        "url": "",
        "title": "Mechanical Engineering",
-       "image_src": "images/mechanical.jpg",
+       "image_src": "images/basic_mechanical.jpg",
        "description": "The Beginners Guide to Engineering series is designed to provide a very simple, non-technical introduction ."
    }
 ]  

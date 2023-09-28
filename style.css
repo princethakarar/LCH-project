@@ -15,7 +15,7 @@ header nav{
 }
 
 header .left{
-    display: inline-block;
+    display: flex;
 }
 
 header .left .logo{
@@ -26,8 +26,118 @@ header .left .logo{
     border-radius: 50%;
 }
 
+header .left .search_book{
+    position: absolute;
+    display: flex;
+    left: 200px;
+    align-items: center;
+    height: 30px;
+    margin: 40px;
+    background-color: rgb(255, 255, 255, .3);
+    color: white;
+    padding-right: 7px;
+    border-radius: 20px;
+}
+
+header .left .search_book input{
+    width: 400px;
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(255, 255, 255, .0);
+}
+
+header .left .search_book .search{
+    position: absolute;
+    width: 420px;
+    height: 170px;
+    top: 40px;
+    z-index: 9999;
+    width: 100%;
+    overflow-y: auto;
+}
+
+header .left .search_book .search::-webkit-scrollbar{
+    width: 5px;
+    background: rgb(255, 255, 255, .3);
+    border-radius: 5px;
+    visibility: hidden;
+}
+
+header .left .search_book .search::-webkit-scrollbar-thumb{
+    width: 5px;
+    background: rgb(255, 255, 255, .3);
+    border-radius: 5px;
+    visibility: hidden;
+}
+
+header .left .search_book .search:hover::-webkit-scrollbar{
+    visibility: visible;
+}
+
+header .left .search_book .search:hover::-webkit-scrollbar-thumb{
+    visibility: visible;
+}
+
+
+header .left .search_book .search .card{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    /* padding: 3px 0px; */
+    text-decoration: none;
+    /* display: none; */
+}
+
+header .left .search_book .search .card::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 255, 255, .1);
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+    z-index: -1;
+}
+
+header .left .search_book .search .card img{
+    position: relative;
+    width: 30px;
+    height: 95%;
+    margin-left: 3px;
+    border-radius: 2px;
+}
+
+header .left .search_book .search .card .cont{
+    margin-left: 10px;
+    color: white;
+}
+
+header .left .search_book .search .card .cont h4{
+    font-size: 15px;
+    line-height: 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 370px;
+}
+
+header .left .search_book .search .card .cont p{
+    font-size: 12px;
+    color: rgb(255, 255, 255, .8);
+}
+
+header .left .search_book input::placeholder{
+    color: white;
+}
+
 header .right{
-    margin-left: 500px;
+    margin-left: 250px;
     margin-top: 20px;
     text-transform: uppercase;
 }

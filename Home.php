@@ -120,7 +120,7 @@
                 <p>Atmiya University, Kalawad Road, Rajkot</p>
             </div>
             <div class="feedback">
-                <form action="submit_feedback.php" method="POST">      
+                <form method="POST">      
                     <table>
                         <tr>
                             <td><label for="name">Name:</label></td>

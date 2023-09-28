@@ -18,11 +18,11 @@ fetch(json_url1)
     .then(response => response.json())
     .then((data) => {
         data.forEach((ele) => { 
-            let { title, image_src, description } = ele;
+            let { title, image_src, description, url } = ele;
             let box = document.createElement('div');
             box.classList.add('box','general');
             box.innerHTML = `
-                <a href="#">
+                <a href="${url}">
                     <img src="${image_src}" alt="${title}">
                     <p class="heading">${title}</p>
                     <p class="content">${description}</p>
@@ -61,7 +61,7 @@ fetch(json_url2)
             let box = document.createElement('div');
             box.classList.add('box','spiritual');
             box.innerHTML = `
-                <a href="#">
+                <a href="">
                     <img src="${image_src}" alt="${title}">
                     <p class="heading">${title}</p>
                     <p class="content">${description}</p>
@@ -107,8 +107,47 @@ fetch(json_url3)
                 </a>
             `;
             // Assuming you have a 'row' element to append the 'box' elements to
-            let row2 = document.querySelector('.row3'); 
-            row2.appendChild(box);
+            let row3 = document.querySelector('.row3'); 
+            row3.appendChild(box);
+        });
+    })
+    .catch(error => {
+        console.error('Error:', error);
+    });
+
+// Automobile books
+
+let left_btn4 = document.getElementsByClassName('fa-chevron-left4')[0];
+let right_btn4 = document.getElementsByClassName('fa-chevron-right4')[0];
+let row4 = document.getElementsByClassName('row4')[0];
+
+left_btn4.addEventListener('click', ()=> {
+    row3.scrollLeft -= 140;
+})
+
+right_btn4.addEventListener('click', ()=> {
+    row3.scrollLeft += 140;
+})
+
+let json_url4 = "Computer-Book.json";
+
+fetch(json_url4)
+    .then(response => response.json())
+    .then((data) => {
+        data.forEach((ele) => { 
+            let { title, image_src, description } = ele;
+            let box = document.createElement('div');
+            box.classList.add('box','computer');
+            box.innerHTML = `
+                <a href="#">
+                    <img src="${image_src}" alt="${title}">
+                    <p class="heading">${title}</p>
+                    <p class="content">${description}</p>
+                </a>
+            `;
+            // Assuming you have a 'row' element to append the 'box' elements to
+            let row4 = document.querySelector('.row4'); 
+            row4.appendChild(box);
         });
     })
     .catch(error => {

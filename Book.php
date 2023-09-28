@@ -13,6 +13,19 @@
         <nav>
             <div class="left">
                 <img src="images/logo_png.png" alt="logo" class="logo">
+                <div class="search_book">
+                    <input type="text" placeholder="Search Books..." id="search_input">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <div class="search">
+                        <!-- <a href="" class="card">
+                            <img src="images/ai.jpg" alt="ai">
+                            <div class="cont">
+                                <h4>Artificial Intelligence</h4>
+                                <p>"Artificial Intelligence" techniques used to create intelligent systems and applications</p>  
+                            </div>
+                        </a> -->
+                    </div>
+                </div>
             </div>
             <div class="right">
                     <ul>
@@ -73,6 +86,22 @@
                 <i class="fa-solid fa-chevron-right fa-chevron-right3"></i>
             </div>   
         </div>
+        <div class="outer">
+            <h2 class="type">Automobile Books</h2>
+            <div class="hor_scroll">
+                <i class="fa-solid fa-chevron-left fa-chevron-left4"></i>
+                <div class="row row4">
+                    <!-- <div class="box">
+                        <a href="#">
+                            <img src="images/bhagvat geeta.jpg" alt="bhagvat geeta">
+                            <p class="heading">Srimad Bhagavad Gita<br>(HINDI)</p>
+                            <p class="content">An episode recorded in the Mahabharata,<br> a Sanskrit epic poem of ancient India.</p>
+                        </a>
+                    </div> --> 
+                </div>
+                <i class="fa-solid fa-chevron-right fa-chevron-right4"></i>
+            </div>   
+        </div>
     </main>
     <footer>
             <div class="contact">
@@ -87,7 +116,7 @@
                 <p>Atmiya University, Kalawad Road, Rajkot</p>
             </div>
             <div class="feedback">
-                <form action="submit_feedback.php" method="POST">      
+                <form method="POST">      
                     <table>
                         <tr>
                             <td><label for="name">Name:</label></td>

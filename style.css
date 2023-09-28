@@ -68,6 +68,42 @@ header .right ul li:hover::after{
 /* footer */
 
 footer{
+    display: flex;
+    justify-content: space-around;
     background-color: #27496D;
     margin-top: 20px;
+    color: white;
+    padding: 20px 0px;
+}
+
+.contact p{
+    display: inline;
+}
+
+.feedback{
+    display: flex;
+    margin-left: 20px; 
+}
+
+footer .feedback textarea, input:not(.submit){
+    padding: 3px;
+    width: 165px;
+}
+
+footer .feedback .submit{
+    padding: 3px;
+}
+
+footer .time i{
+    margin-top: 5px;
+    margin-right: 3px;
+    font-size: 23px;
+} 
+
+footer h3{
+    margin-bottom: 5px;
+}
+
+footer p, footer i{
+    margin-top: 3px;
 }

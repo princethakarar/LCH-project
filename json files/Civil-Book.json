@@ -1,0 +1,33 @@
+[
+    {
+        "url": "",
+        "title": "Basic Civil Engineering",
+        "image_src": "images/basic.jpg",
+        "description": "Reading books is a kind of enjoyment. Reading books is a good habit. We bring you a different kinds of books."
+    },
+    {
+        "url": "",
+        "title": "The Tower And Bridge",
+        "image_src": "images/tower.jpg",
+        "description": "its first paperback edition, all are striking examples of structural art, an exciting form distinct from either architecture or machine design."
+    },
+    {
+        "url": "",
+        "title": "Surveying & Levelling",
+        "image_src": "images/surveying.jpg",
+        "description": "Written in a user-friendly manner, this book presents the basic principles of surveying and levelling in a simple and systematic manner. "
+    },
+    {
+       "url": "",
+       "title": "Civil Engineering Capsule",
+       "image_src": "images/capsule.jpg",
+       "description": "This book helps u to crack competitive exams and it contains all the questions with its solution."
+
+    },
+    {
+        "url": "",
+        "title": "HandBook On Civil Engineering ",
+        "image_src": "images/handbook.jpg",
+        "description": "Provides well illustrated formulae and key theory concepts which are used for cracking exams with questions and its solutions."
+    }
+]

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="Home.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>Home</title>
 </head>
@@ -18,7 +19,8 @@
                 <ul>
                     <li><a href="Home.php">Home</a></li>
                     <li><a href="Book.php">Books</a></li>
-                    <li><a href="login.php">Login</a></li>
+                    <li><a href='login.php'>Login</a></li>
+                    <li><a href='logout.php'>logout</a></li>
                 </ul>
             </div>
         </nav>

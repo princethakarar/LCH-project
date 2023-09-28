@@ -1,0 +1,191 @@
+[
+    {
+        "url": "",
+        "title": "Srimad Bhagavad Gita<br>(HINDI)",
+        "image_src": "images/bhagvat geeta.jpg",
+        "description": "An episode recorded in the Mahabharata, a Sanskrit epic poem of ancient India."   
+    },
+    {
+        "url": "",
+        "title": "Ramayan<br>(HINDI)",
+        "image_src": "images/ramayan.jpg",
+        "description": "The Ramayana is an ancient Indian epic that narrates the life and adventures of Lord Rama."  
+    },
+    {
+        "url": "",
+        "title": "Charaka Samhita<br>(HINDI)",
+        "image_src": "images/charaka samhita.jpg",
+        "description": "covers the field of Ayurveda, including principles of medicine, disease diagnosis, and treatments."  
+    },
+    {
+        "url": "",
+        "title": " Upanishads<br>(HINDI)",
+        "image_src": "images/upanishads.jpg",
+        "description": "The Upanishads are a collection of ancient Hindu texts that explore profound spiritual and philosophical concepts." 
+    },
+    {
+        "url": "",
+        "title": " Holy Vedas<br>(HINDI)",
+        "image_src": "images/holy vedaas.jpg",
+        "description": "Holy Vedas are the oldest and most revered scriptures of Hinduism. This book covers all four, RIG VEDA, ATHARVA VEDA, YAJUR VEDA, SAM VEDA. The origin of the Vedas can be traced back as far as 1500 BCE."
+    },
+
+    {
+        "url": "",
+        "title": "Rich Dad Poor Dad (HINDI)",
+        "image_src": "images/rich dad poor dad.jpg",
+        "images_alt": "Rich Dad Poor Dad",
+        "description": "\"Rich Dad Poor Dad\" by Robert Kiyosaki contrasts the financial philosophies of his \"rich dad\" and \"poor dad\"."
+    },
+    {
+        "url": "",
+        "title": "7 Money Rules for Life (R) - How to Take Control of Your Financial Future",
+        "image_src": "images/7 money rules.jpg",
+        "description": "\"7 Money Rules for Life\" by Mary Hunt offers practical financial advice."
+    },
+    {
+        "url": "",
+        "title": "The Psychology Of Money",
+        "image_src": "images/psychology of money.jpg",
+        "description": "\"The Psychology of Money\" by Morgan Housel explores the complex relationship between human behavior and money."
+    },
+    {
+       "url": "",
+       "title": "Atomic Habits",
+       "image_src": "images/atomic habits.jpg",
+       "description": "\"Atomic Habits\" by James Clear explores the science of habit formation"   
+    },
+    {
+        "url": "",
+        "title": "The Startup's Guide to LinkedIn Lead Generation Mastery",
+        "image_src": "images/keval book.jpg",
+        "description": "This comprehensive eBook is tailored to startup's aiming to excel in B2B lead generation using LinkedIn."   
+    },
+
+    
+    {
+        "url": "",
+        "title": "Artificial Intelligence",
+        "image_src": "images/ai.jpg",
+        "description": "\"Artificial Intelligence\" techniques used to create intelligent systems and applications."
+    },
+    {
+        "url": "",
+        "title": "Effective Java",
+        "image_src": "images/java.jpg",
+        "description": "\"Effective Java\"by Joshua Bloch is a programming guide that offers best practices and design principles."
+    },
+    {
+        "url": "",
+        "title": "Python for Data Analysis",
+        "image_src": "images/python.jpg",
+        "description": "\"Python for Data Analysis\" by Wes McKinney is a comprehensive guide that teaches data analysis using Python."
+    },
+    {
+       "url": "",
+       "title": "Introduction To Algorithms",
+       "image_src": "images/alogorithm.jpg",
+       "description": "\"Introduction to Algorithms\" is a comprehensive textbook covering a wide range of fundamental algorithms and data structures used in computer science."
+
+    },
+    {
+          "url": "",
+       "title": "Computer Organization and Design",
+       "image_src": "images/computer.jpg",
+       "description": "\"Computer Organization and Design\", Fifth Edition, is the latest update to the classic introduction to computer organization. ."
+    },
+
+    {
+        "url": "",
+        "title": "Autopia The Future Of Car",
+        "image_src": "images/autopia.jpg",
+        "description": "This whole book is about cars. Cars are one of the most significant human creations. They changed our cities. They changed our lives ."
+    },
+    {
+        "url": "",
+        "title": "AUTOMOTIVE TECHNOLOGY",
+        "image_src": "images/automative.jpg",
+        "description": "A SYSTEMS APPROACH, 5th Edition remains the leading authority on automotive theory, service and repair procedures.."
+    },
+    {
+        "url": "",
+        "title": "Automative Software Architecutres",
+        "image_src": "images/softarct.jpg",
+        "description": " introduces the concept of software architecture as one of the cornerstones of software in modern cars. ."
+    },
+    {
+       "url": "",
+       "title": "Automative Producut Development",
+       "image_src": "images/product.jpg",
+       "description": " Automotive Product Development: A Systems Engineering Implementation (HB 2017) Bhise V.D."
+    },
+    {
+        "url": "",
+        "title": "Vehicle Dynamic  ",
+        "image_src": "images/vehicle.jpg",
+        "description": " A book on vehicle dynamics explores the principles governing the behavior and performance of automobiles in motion."
+    },
+
+    {
+            "url": "",
+            "title": "Basic Civil Engineering",
+            "image_src": "images/basic.jpg",
+            "description": "Reading books is a kind of enjoyment. Reading books is a good habit. We bring you a different kinds of books."
+    },
+    {
+            "url": "",
+            "title": "The Tower And Bridge",
+            "image_src": "images/tower.jpg",
+            "description": "its first paperback edition, all are striking examples of structural art, an exciting form distinct from either architecture or machine design."
+    },
+    {
+            "url": "",
+            "title": "Surveying & Levelling",
+            "image_src": "images/surveying.jpg",
+            "description": "Written in a user-friendly manner, this book presents the basic principles of surveying and levelling in a simple and systematic manner. "
+    },
+    {
+           "url": "",
+           "title": "Civil Engineering Capsule",
+           "image_src": "images/capsule.jpg",
+           "description": "This book helps u to crack competitive exams and it contains all the questions with its solution."
+    
+    },
+    {
+            "url": "",
+            "title": "HandBook On Civil Engineering ",
+            "image_src": "images/handbook",
+            "description": "Provides well illustrated formulae and key theory concepts which are used for cracking exams with questions and its solutions."
+    },
+
+    {
+        "url": "",
+        "title": "Theory Of Machines",
+        "image_src": "images/theory.jpg",
+        "description": " Theory of Machines is designed mainly for the students of mechanical engineering."
+   },
+   {
+       "url": "",
+       "title": "Mechanical Engineering For Markes",
+       "image_src": "images/markes.jpg",
+       "description": "This practical, user-friendly reference book of common mechanical engineering concepts."
+   },
+   {
+       "url": "",
+       "title": "Mechatronics",
+       "image_src": "images/mechatronics.jpg",
+       "description": "his text gives a clear and comprehensive introduction to the area of Mechatronics."
+   },
+   {
+       "url": "",
+       "title": "Design Data Handbook",
+       "image_src": "images/handbook.jpg",
+       "description": "Machine design is one of the important subjects in mechanical engineering and a thorough knowledge."
+   },
+   {
+       "url": "",
+       "title": "Mechanical Engineering",
+       "image_src": "images/mechanical.jpg",
+       "description": "The Beginners Guide to Engineering series is designed to provide a very simple, non-technical introduction ."
+   }
+]  

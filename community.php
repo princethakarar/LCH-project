@@ -15,17 +15,15 @@
             </div>
             <div class="right">
                 <ul>
-                    <li><a href="index.php">Home</a></li>
+                    <li><a href="Home.php">Home</a></li>
                     <li><a href="events.html">Events</a></li>
-                    <li><a href="books.php">Books</a></li>
+                    <li><a href="book.php">Books</a></li>
                     <li><a href="login.php">Login</a></li>
+                    <li><a href="logout.php">Logout</a></li>
                 </ul>
             </div>
         </nav>
     </header>
-    <main>
-        
-    </main>
     <footer></footer>
 </body>
 </html>

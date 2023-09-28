@@ -15,7 +15,7 @@
             </div>
             <div class="right">
                     <ul>
-                        <li><a href="index.php">Home</a></li>
+                        <li><a href="Home.php">Home</a></li>
                         <li><a href="events.html">Events</a></li>
                         <li><a href="Book.php">Books</a></li>
                         <li><a href="login.php">Login</a></li>
@@ -24,13 +24,14 @@
         </nav>
     </header>
     <main>
-       
+       <form method="post">
 
         <div class="temp">
             <img src="images/ai.jpg" alt="ai" height="500px" width="30%">
             <div class="detail" >
                
                 <h1>Artificial Intelligence</h1>
+                <h1>RK</h1>
                 <br>
                 <br>
                
@@ -40,6 +41,23 @@
            
             
         </div>
+        </form>
     </main>
 </body>
 </html>
+<?php
+    session_start();
+    if(isset($_POST["btn"]))
+    {
+
+        if(!isset($_SESSION["email"]))
+        {
+            echo "<script> alert('You are not Loged...')</script>";
+            header("location: login_book_community.php");
+        }
+        else
+        {
+            header("location: community.php");   
+        }
+    }
+?>

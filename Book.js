@@ -12,7 +12,7 @@ right_btn1.addEventListener('click', ()=> {
 
 // General books
 
-let json_url1 = "General-Book.json";
+let json_url1 = "json files/General-Book.json";
 
 fetch(json_url1)
     .then(response => response.json())
@@ -51,17 +51,17 @@ right_btn2.addEventListener('click', ()=> {
     row2.scrollLeft += 140;
 })
 
-let json_url2 = "Spiritual-Book.json";
+let json_url2 = "json files/Spiritual-Book.json";
 
 fetch(json_url2)
     .then(response => response.json())
     .then((data) => {
         data.forEach((ele) => { 
-            let { title, image_src, description } = ele;
+            let { title, image_src, description, url } = ele;
             let box = document.createElement('div');
             box.classList.add('box','spiritual');
             box.innerHTML = `
-                <a href="">
+                <a href="${url}">
                     <img src="${image_src}" alt="${title}">
                     <p class="heading">${title}</p>
                     <p class="content">${description}</p>
@@ -90,17 +90,17 @@ right_btn3.addEventListener('click', ()=> {
     row3.scrollLeft += 140;
 })
 
-let json_url3 = "Computer-Book.json";
+let json_url3 = "json files/Computer-Book.json";
 
 fetch(json_url3)
     .then(response => response.json())
     .then((data) => {
         data.forEach((ele) => { 
-            let { title, image_src, description } = ele;
+            let { title, image_src, description, url } = ele;
             let box = document.createElement('div');
             box.classList.add('box','computer');
             box.innerHTML = `
-                <a href="#">
+                <a href="${url}">
                     <img src="${image_src}" alt="${title}">
                     <p class="heading">${title}</p>
                     <p class="content">${description}</p>
@@ -122,24 +122,24 @@ let right_btn4 = document.getElementsByClassName('fa-chevron-right4')[0];
 let row4 = document.getElementsByClassName('row4')[0];
 
 left_btn4.addEventListener('click', ()=> {
-    row3.scrollLeft -= 140;
+    row4.scrollLeft -= 140;
 })
 
 right_btn4.addEventListener('click', ()=> {
-    row3.scrollLeft += 140;
+    row4.scrollLeft += 140;
 })
 
-let json_url4 = "Computer-Book.json";
+let json_url4 = "json files/Automobile-Book.json";
 
 fetch(json_url4)
     .then(response => response.json())
     .then((data) => {
         data.forEach((ele) => { 
-            let { title, image_src, description } = ele;
+            let { title, image_src, description, url } = ele;
             let box = document.createElement('div');
-            box.classList.add('box','computer');
+            box.classList.add('box','automobile');
             box.innerHTML = `
-                <a href="#">
+                <a href="${url}">
                     <img src="${image_src}" alt="${title}">
                     <p class="heading">${title}</p>
                     <p class="content">${description}</p>
@@ -148,6 +148,84 @@ fetch(json_url4)
             // Assuming you have a 'row' element to append the 'box' elements to
             let row4 = document.querySelector('.row4'); 
             row4.appendChild(box);
+        });
+    })
+    .catch(error => {
+        console.error('Error:', error);
+    });
+
+// Civil books
+
+let left_btn5 = document.getElementsByClassName('fa-chevron-left5')[0];
+let right_btn5 = document.getElementsByClassName('fa-chevron-right5')[0];
+let row5 = document.getElementsByClassName('row5')[0];
+
+left_btn5.addEventListener('click', ()=> {
+    row5.scrollLeft -= 140;
+})
+
+right_btn5.addEventListener('click', ()=> {
+    row5.scrollLeft += 140;
+})
+
+let json_url5 = "json files/Civil-Book.json";
+
+fetch(json_url5)
+    .then(response => response.json())
+    .then((data) => {
+        data.forEach((ele) => { 
+            let { title, image_src, description, url } = ele;
+            let box = document.createElement('div');
+            box.classList.add('box','civil');
+            box.innerHTML = `
+                <a href="${url}">
+                    <img src="${image_src}" alt="${title}">
+                    <p class="heading">${title}</p>
+                    <p class="content">${description}</p>
+                </a>
+            `;
+            // Assuming you have a 'row' element to append the 'box' elements to
+            let row5 = document.querySelector('.row5'); 
+            row5.appendChild(box);
+        });
+    })
+    .catch(error => {
+        console.error('Error:', error);
+    });
+
+// Mechanical books
+
+let left_btn6 = document.getElementsByClassName('fa-chevron-left6')[0];
+let right_btn6 = document.getElementsByClassName('fa-chevron-right6')[0];
+let row6 = document.getElementsByClassName('row6')[0];
+
+left_btn6.addEventListener('click', ()=> {
+    row6.scrollLeft -= 140;
+})
+
+right_btn6.addEventListener('click', ()=> {
+    row6.scrollLeft += 140;
+})
+
+let json_url6 = "json files/Mechanical-Book.json";
+
+fetch(json_url6)
+    .then(response => response.json())
+    .then((data) => {
+        data.forEach((ele) => { 
+            let { title, image_src, description, url } = ele;
+            let box = document.createElement('div');
+            box.classList.add('box','civil');
+            box.innerHTML = `
+                <a href="${url}">
+                    <img src="${image_src}" alt="${title}">
+                    <p class="heading">${title}</p>
+                    <p class="content">${description}</p>
+                </a>
+            `;
+            // Assuming you have a 'row' element to append the 'box' elements to
+            let row6 = document.querySelector('.row6'); 
+            row6.appendChild(box);
         });
     })
     .catch(error => {

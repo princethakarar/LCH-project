@@ -54,6 +54,8 @@ if(isset($_POST["Signup"])){
     $sql = "INSERT INTO signup_table (username, email, password) VALUES ('$name', '$email', '$password')";
     if ($conn->query($sql) === TRUE) 
     {
+        session_start();
+        $_SESSION["name"]=$_POST["username"];
         echo "registered  successfully!";
         header("Location: login.php");
     } 

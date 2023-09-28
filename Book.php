@@ -74,7 +74,7 @@
             <h2 class="type">Computer Books</h2>
             <div class="hor_scroll">
                 <i class="fa-solid fa-chevron-left fa-chevron-left3"></i>
-                <div class="row row3">
+                <div class="row row3" class="computer">
                     <!-- <div class="box">
                         <a href="#">
                             <img src="images/bhagvat geeta.jpg" alt="bhagvat geeta">
@@ -90,7 +90,7 @@
             <h2 class="type">Automobile Books</h2>
             <div class="hor_scroll">
                 <i class="fa-solid fa-chevron-left fa-chevron-left4"></i>
-                <div class="row row4">
+                <div class="row row4" class="automobile">
                     <!-- <div class="box">
                         <a href="#">
                             <img src="images/bhagvat geeta.jpg" alt="bhagvat geeta">
@@ -100,6 +100,38 @@
                     </div> --> 
                 </div>
                 <i class="fa-solid fa-chevron-right fa-chevron-right4"></i>
+            </div>   
+        </div>
+        <div class="outer">
+            <h2 class="type">Civil Books</h2>
+            <div class="hor_scroll">
+                <i class="fa-solid fa-chevron-left fa-chevron-left5"></i>
+                <div class="row row5" class="civil">
+                    <!-- <div class="box">
+                        <a href="#">
+                            <img src="images/bhagvat geeta.jpg" alt="bhagvat geeta">
+                            <p class="heading">Srimad Bhagavad Gita<br>(HINDI)</p>
+                            <p class="content">An episode recorded in the Mahabharata,<br> a Sanskrit epic poem of ancient India.</p>
+                        </a>
+                    </div> --> 
+                </div>
+                <i class="fa-solid fa-chevron-right fa-chevron-right5"></i>
+            </div>   
+        </div>
+        <div class="outer">
+            <h2 class="type">Mechanical Books</h2>
+            <div class="hor_scroll">
+                <i class="fa-solid fa-chevron-left fa-chevron-left6"></i>
+                <div class="row row6" class="mechanical">
+                    <!-- <div class="box">
+                        <a href="#">
+                            <img src="images/bhagvat geeta.jpg" alt="bhagvat geeta">
+                            <p class="heading">Srimad Bhagavad Gita<br>(HINDI)</p>
+                            <p class="content">An episode recorded in the Mahabharata,<br> a Sanskrit epic poem of ancient India.</p>
+                        </a>
+                    </div> --> 
+                </div>
+                <i class="fa-solid fa-chevron-right fa-chevron-right6"></i>
             </div>   
         </div>
     </main>

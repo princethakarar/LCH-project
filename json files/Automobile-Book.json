@@ -1,0 +1,32 @@
+[
+    {
+        "url": "",
+        "title": "Autopia The Future Of Car",
+        "image_src": "images/autopia.jpg",
+        "description": "This whole book is about cars. Cars are one of the most significant human creations. They changed our cities. They changed our lives ."
+    },
+    {
+        "url": "",
+        "title": "AUTOMOTIVE TECHNOLOGY",
+        "image_src": "images/automotive.jpg",
+        "description": "A SYSTEMS APPROACH, 5th Edition remains the leading authority on automotive theory, service and repair procedures.."
+    },
+    {
+        "url": "",
+        "title": "Automotive Software Architectures",
+        "image_src": "images/software.jpg",
+        "description": " introduces the concept of software architecture as one of the cornerstones of software in modern cars. ."
+    },
+    {
+       "url": "",
+       "title": "Automotive Product Development",
+       "image_src": "images/product.jpg",
+       "description": " Automotive Product Development: A Systems Engineering Implementation (HB 2017) Bhise V.D."
+    },
+    {
+        "url": "",
+        "title": "Vehicle Dynamic  ",
+        "image_src": "images/vehicle.jpg",
+        "description": " A book on vehicle dynamics explores the principles governing the behavior and performance of automobiles in motion."
+    }
+]

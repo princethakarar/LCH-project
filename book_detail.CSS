@@ -2,16 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     /* background-image: url(images/background.jpg); */
 }
 body{
     background-image: url('images/background2.jpg');
+   
 }
 
 .temp {
@@ -19,42 +14,76 @@ body{
     width: 80%;
     display: flex;
     position: absolute;
-    background-color: rgba(29, 27, 27, 0.889);
+    background-color: #bdb6a9ab;
     margin-top: 35px;
     margin-left: 150px;
     border-radius: 20px;
+    overflow:hidden;
 }
 .temp img{
     height: 500px;  
     width: 30%;
-    margin: 40px 20px ;
+    margin: 4% 20px ;
     margin-left: 50px;
+    opacity: 0; /* Initially set the opacity to 0 to hide the content */
+    animation: fadeIn 0.8s ease-in-out forwards; ;
    
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 2;
+        transform: translateY(60px); /* Optionally, you can add a slight vertical translation */
+    }
+    100% {
+        opacity: 2;
+        transform: translatex(0px);
+    }
+}
+.temp .detail{
+    opacity: 0; /* Initially set the opacity to 0 to hide the content */
+    animation: fadeIn 0.8s ease-in-out forwards; 
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(35px); /* Optionally, you can add a slight vertical translation */
+    }
+    100% {
+        opacity: 2;
+        transform: translatex(0px);
+    }
 }
 .temp .detail h1{
     font-size: 50px;
     font-style: bold;
-    color: rgb(199, 108, 33);
+    color: rgb(107, 48, 0);
     text-align: left;
-    margin-top: 130px;
-    margin-left:20px;
+    margin-top: 80px;
+    margin-left:5px;
 }
 .temp .detail h2{
-    font-size: 30px;
-    color: rgb(237, 232, 232);
+    font-size: 20px;
+    color: rgb(12, 12, 12);
     text-align: left;
     margin-top: 10px;
-    margin-left:20px;
+    margin-left:5px;
+    margin-right: 5px;
 }
 .temp .detail .button{
-    background-color: rgba(172, 116, 42, 0);
-    color:bisque;
+    background-color: rgba(167, 125, 40, 0);
+    color:rgb(24, 22, 21);
     padding: 5px;
     margin-top:20px;
     border-radius: 10px;
-    border-color: rgb(213, 144, 16);
+    border-color: rgb(162, 105, 0);
 }
 .temp .detail .button:hover{
     cursor: pointer;
-    background-color: rgb(220, 142, 32);
+    background-color: rgb(199, 108, 33);
+    transform: scale(1.05) smooth; /* Scale on hover */
+
+}
+.button:hover::before {
+    opacity: 10;
+
 }

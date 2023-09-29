@@ -27,16 +27,16 @@
        
     <form method="post">
         <div class="temp">
-            <img src="images/ai.jpg" alt="ai" height="500px" width="30%">
+            <img src="images/psychology of money.jpg" alt="ai" height="500px" width="30%">
             <div class="detail" >
                
-                <h1>Artificial Intelligence</h1>
-                <h1>RK</h1>
+                <h1>The Psychology Of Money</h1>
+               
                 <br>
                 <br>
                
-                <h2>Effective Java"by Joshua Bloch is a programming guide that offers best practices and design principles</h2>
-                <input type="submit" class="button" name="btn" value="Community" style="margin-left: 20px;  font-size: 25px;>
+                <h2>"The Psychology of Money" by Morgan Housel explores the complex relationship between human behavior and money.  As much as reading can inform us about what has happened in the past, like stock market crashes or how stocks have trended up and to the right over time, learning about something in a book is very different from actually experiencing the event. So be careful. You may think that you can hold your stocks during a 30% market downturn because you know that only suckers sell at the bottom, but it’s only when you experience that type of downturn that youll learn what you do."</h2>
+                <input type="submit" class="button" name="btn" value="Community" style="margin-left: 20px;  font-size: 25px;">
             </div>
         </div>
         </form>

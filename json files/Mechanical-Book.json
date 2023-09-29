@@ -1,24 +1,24 @@
 [
     {
-        "url": "",
+        "url": "book_detail5.php",
         "title": "Theory Of Machines",
         "image_src": "images/theory.jpg",
         "description": " Theory of Machines is designed mainly for the students of mechanical engineering."
    },
    {
-       "url": "",
+       "url": "book_detail6.php",
        "title": "Mechanical Engineering For Makers",
        "image_src": "images/makers.jpg",
        "description": "This practical, user-friendly reference book of common mechanical engineering concepts."
    },
    {
-       "url": "",
+       "url": "book_detail7.php",
        "title": "Mechatronics",
        "image_src": "images/mechatronics.jpg",
        "description": "his text gives a clear and comprehensive introduction to the area of Mechatronics."
    },
    {
-       "url": "",
+       "url": "book_detail8.php",
        "title": "Design Data Handbook",
        "image_src": "images/mechanical_handbook.jpg",
        "description": "Machine design is one of the important subjects in mechanical engineering and a thorough knowledge."

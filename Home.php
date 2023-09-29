@@ -14,13 +14,26 @@
         <nav>
             <div class="left">
                 <img src="images/logo_png.png" alt="logo" class="logo">
+                <div class="search_book">
+                    <input type="text" placeholder="Search Books..." id="search_input">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <div class="search">
+                        <!-- <a href="" class="card">
+                            <img src="images/ai.jpg" alt="ai">
+                            <div class="cont">
+                                <h4>Artificial Intelligence</h4>
+                                <p>"Artificial Intelligence" techniques used to create intelligent systems and applications</p>  
+                            </div>
+                        </a> -->
+                    </div>
+                </div>
             </div>
             <div class="right">
-                <ul>
-                    <li><a href="Home.php">Home</a></li>
-                    <li><a href="Book.php">Books</a></li>
-                    <li class="profile"><a href='profile.php'></a><i class="fa-solid fa-user"></i></a></li>
-                </ul>
+                    <ul>
+                        <li><a href="Home.php">Home</a></li>
+                        <li><a href="Book.php">Books</a></li>
+                        <li><a href="login.php">Login</a></li>
+                    </ul>
             </div>
         </nav>
     </header>
@@ -151,7 +164,6 @@
                 <i class="fa-brands fa-linkedin"></i>
             </div>
     </footer>
-
     <script>
         const slider = document.getElementById('slider');
         // const prevButton = document.getElementById('prev');
@@ -178,5 +190,6 @@
         // Automatically advance the slider every 5 seconds (5000 milliseconds)
         setInterval(nextSlide, 3000);
     </script>
+    <script src="search.js"></script>
 </body>
 </html>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="book_detail.css">
+    <link rel="stylesheet" href="book_detail.CSS">
     <title>Book Detail</title>
 </head>
 <body>
@@ -27,13 +27,13 @@
        
         <form method="post">
         <div class="temp">
-            <img src="images/ai.jpg" alt="ai" height="500px" width="30%">
+            <img src="images/rich dad poor dad.jpg" alt="ai" height="500px" width="30%">
             <div class="detail" >
                
-                <h1>Artificial Intelligence</h1>
-                <h1>RK</h1>
-                <h2>Effective Java"by Joshua Bloch is a programming guide that offers best practices and design principles</h2>
-                <input type="submit" class="button" name="btn" value="Community'>
+                <h1>Rich Dad Poor Dad (HINDI)</h1>
+                
+                <h2>"Rich Dad Poor Dad" by Robert Kiyosaki contrasts the financial philosophies of his "rich dad" and "poor dad". Throughout the book, the author explains how a person can increase their wealth by investing in assets and by being smart with money.The book introduces the concepts of cash flow, balance sheet, income statement, assets, and liabilities in a simple manner, easy for everyone to understand. The author wishes that everyone was taught the basics of finances from childhood like he was, which he lists as one of the reasons for writing this book. The importance of knowing the difference between assets and liabilities and focusing on investing in assets is emphasized through multiple chapters and called “the number one and the only rule”.</h2>
+                <input type="submit" class="button" name="btn" value="Community" style="margin-left: 20px;  font-size: 25px;">
             </div">  
         </div>
         </form>

@@ -33,7 +33,7 @@
                 <h1>Artificial Intelligence</h1>
                 <h1>RK</h1>
                 <h2>Effective Java"by Joshua Bloch is a programming guide that offers best practices and design principles</h2>
-                <input type="submit" class="button" name="btn" value="Community" style="margin-left: 20px;  font-size: 25px;">
+                <input type="submit" class="button" name="btn" value="Community'>
             </div">  
         </div>
         </form>

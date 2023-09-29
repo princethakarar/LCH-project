@@ -19,8 +19,7 @@
                 <ul>
                     <li><a href="Home.php">Home</a></li>
                     <li><a href="Book.php">Books</a></li>
-                    <li><a href='login.php'>Login</a></li>
-                    <li><a href='logout.php'>logout</a></li>
+                    <li class="profile"><a href='profile.php'></a><i class="fa-solid fa-user"></i></a></li>
                 </ul>
             </div>
         </nav>

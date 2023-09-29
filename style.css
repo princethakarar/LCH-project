@@ -170,9 +170,18 @@ header .right ul li::after{
     transition: 0.5s; 
 }
 
-header .right ul li:hover::after{
+header .right ul li:hover::after:not(.profile) {
     width: 60%;
     cursor: pointer;
+}
+
+header .right ul li i{
+    position: absolute;
+    top: 28%;
+    color: white; 
+    background-color: rgb(176, 176, 176);
+    padding: 8px 9px;
+    border-radius: 50%;
 }
 
 /* footer */

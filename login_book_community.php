@@ -56,7 +56,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 session_start();
                 $_SESSION["email"]=$_POST["email"];  
                 $_SESSION["name"]=$_POST["username"];        
-                header("Location: community.php");
+                header("Location: community.html");
                 exit();
             }
         } 

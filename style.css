@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #4E1D04;
 }
 
 /* header */
@@ -9,7 +10,7 @@
 header nav{
     display: flex;
     justify-content: space-between;
-    background-color: #27496D;
+    background-color: #DCBE87;
     width: 100%;
     padding-bottom: 10px;
 }
@@ -33,7 +34,7 @@ header .left .search_book{
     align-items: center;
     height: 30px;
     margin: 40px;
-    background-color: rgb(255, 255, 255, .3);
+    background-color: #4e1d0452;
     color: white;
     padding-right: 7px;
     border-radius: 20px;
@@ -125,6 +126,7 @@ header .left .search_book .search .card .cont h4{
     text-overflow: ellipsis;
     white-space: nowrap;
     width: 370px;
+    color: white;
 }
 
 header .left .search_book .search .card .cont p{
@@ -133,7 +135,7 @@ header .left .search_book .search .card .cont p{
 }
 
 header .left .search_book input::placeholder{
-    color: white;
+    color: #4E1D04;
 }
 
 header .right{
@@ -156,21 +158,21 @@ header .right ul li a{
     display: block;
     padding: 25px;
     text-decoration: none;
-    color: white;
+    color: #4E1D04;
 }
 
 header .right ul li::after{
     content: '';
     height: 2px;
     width: 0;
-    background: #9a8f18;
+    background: #4E1D04;
     position: absolute;
     left: 20%;
     bottom: 17px;
     transition: 0.5s; 
 }
 
-header .right ul li:hover::after:not(.profile) {
+header .right ul li:hover::after {
     width: 60%;
     cursor: pointer;
 }
@@ -189,7 +191,7 @@ header .right ul li i{
 footer{
     display: flex;
     justify-content: space-around;
-    background-color: #27496D;
+    background-color: #DCBE87;
     margin-top: 20px;
     color: white;
     padding: 20px 0px;
@@ -207,6 +209,10 @@ footer{
 footer .feedback textarea, input:not(.submit){
     padding: 3px;
     width: 165px;
+}
+
+footer .feedback input::placeholder,footer .feedback textarea::placeholder{
+    color: #4E1D04;
 }
 
 footer .feedback .submit{

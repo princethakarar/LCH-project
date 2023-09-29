@@ -1,36 +1,42 @@
-// Get references to HTML elements
-const chatDisplay = document.getElementById('chat-display');
-const messageInput = document.getElementById('message-input');
-const sendButton = document.getElementById('send-button');
+function addMessage(message, isUser) {
+    const chatMessages = document.getElementById('chat-messages');
+    const messageDiv = document.createElement('div');
+    messageDiv.className = isUser ? 'user-message' : 'other-message';
+    messageDiv.textContent = message;
+    chatMessages.appendChild(messageDiv);
+}
 
-// Initialize Firebase with your project configuration
-// (Your Firebase initialization code here)
-
-// Function to send a message
+// Function to handle sending a message
 function sendMessage() {
-    const message = messageInput.value;
+    const messageInput = document.getElementById('message-input');
+    const message = messageInput.value.trim();
+
     if (message !== '') {
-        // Push the message to the Firebase database
-        database.ref('messages').push({
-            text: message,
-            timestamp: firebase.database.ServerValue.TIMESTAMP
-        });
+        // Add the user's message to the chat
+        addMessage(message, true);
+
+        // Simulate a response from the library community
+        // setTimeout(() => {
+        //     const response = "Thank you for your message! How can we assist you today?";
+        //     addMessage(response, false);
+        // }, 1000);
+
+        // Clear the input field
         messageInput.value = '';
     }
 }
 
 // Event listener for the Send button
+const sendButton = document.getElementById('send-button');
 sendButton.addEventListener('click', sendMessage);
 
-// Function to display messages in the chat
-function displayMessage(key, message) {
-    const messageElement = document.createElement('div');
-    messageElement.innerText = message.text;
-    chatDisplay.appendChild(messageElement);
-}
-
-// Event listener for real-time updates to the messages
-database.ref('messages').on('child_added', (snapshot) => {
-    const message = snapshot.val();
-    displayMessage(snapshot.key, message);
+// Event listener for pressing Enter in the input field
+const messageInput = document.getElementById('message-input');
+messageInput.addEventListener('keydown', (event) => {
+    if (event.key === 'Enter') {
+        sendMessage();
+    }
 });
+
+// Initial greeting from the library community
+addMessage("Welcome to the Library Community Chat! How can we help you today?", false);

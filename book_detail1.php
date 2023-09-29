@@ -8,21 +8,6 @@
     <title>Book Detail</title>
 </head>
 <body>
-<header>
-        <nav>
-            <div class="left">
-                <img src="images/logo_png.png" alt="logo" class="logo">
-            </div>
-            <div class="right">
-                    <ul>
-                        <li><a href="Home.php">Home</a></li>
-                        <li><a href="events.html">Events</a></li>
-                        <li><a href="Book.php">Books</a></li>
-                        <li><a href="login.php">Login</a></li>
-                    </ul>
-            </div>
-        </nav>
-    </header>
     <main>
        
         <form method="post">
@@ -52,7 +37,7 @@
         }
         else
         {
-            header("location: community.php");   
+            header("location: community.html");   
         }
     }
 ?>

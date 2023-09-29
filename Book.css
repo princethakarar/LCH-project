@@ -12,7 +12,8 @@
 }
 
 body{
-    background-image: linear-gradient(rgba(0,0,30,0.4),rgba(0,0,30,0.4)),url(images/background2.jpg);
+    /* background-image: url(images/background3.jpg); */
+    background-color: #4e1d04a8;
 }
 
 .hor_scroll .row{
@@ -37,7 +38,7 @@ body{
     margin-bottom: 20px;
     margin-left: 20px;
     align-items: center;
-    background-color: rgba(222, 220, 220, 0.628);
+    background-color: #dcbe87a8;
     border-radius: 7px;
     transition: linear 0.25s;
     margin-top: 30px;

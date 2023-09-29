@@ -5,7 +5,7 @@
     /* background-image: url(images/background.jpg); */
 }
 body{
-    background-image: url('images/background2.jpg');
+    background-image: url('images/background3.jpg');
    
 }
 
@@ -18,7 +18,6 @@ body{
     margin-top: 35px;
     margin-left: 150px;
     border-radius: 20px;
-    overflow:hidden;
 }
 .temp img{
     height: 500px;  
@@ -62,7 +61,7 @@ body{
     margin-left:5px;
 }
 .temp .detail h2{
-    font-size: 20px;
+    font-size: 15px;
     color: rgb(12, 12, 12);
     text-align: left;
     margin-top: 10px;

@@ -62,7 +62,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         } 
         else 
         {
-            echo "Invalid credentials. Please try again.";
+            echo "<script>alert('Invalid credentials. Please try again.')</script>";
         }
     }
 

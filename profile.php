@@ -27,13 +27,14 @@
     <div class="container">
             <div class="form-box">
                 <form method="post">
-                    <img src="images/profile_logo.jpg" alt="logo" class="logo">                  
+                    <img src="images/profile_logo.jpg" alt="logo" class="logo"><br><br>                  
                         <?php
                             error_reporting(0);
                             session_start();
-                            echo "<h2 style='text-align: center;'>Email </h2>" .$_SESSION["email"];
+                            // echo "<h2 style='text-align: center;'>Name </h2>" .$_SESSION["name"];
+                            echo "<br><br><h2 style='text-align: center;'>Email </h2>" .$_SESSION["email"];
                         ?>
-                    <input type="submit" name="logout" class="sb-btn" value="Logout">
+                    <br><br><input type="submit" name="logout" class="sb-btn" value="Logout">
                 </form>
             </div>
         </div>
